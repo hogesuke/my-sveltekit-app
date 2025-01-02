@@ -7,7 +7,7 @@ export const load: PageLoad = async ({ fetch }) => {
   const date = await dateResponse.json();
 
   return {
-    ...hello,
-    ...date,
+    message: hello.message,
+    serverTime: date.serverTime,
   };
 };
