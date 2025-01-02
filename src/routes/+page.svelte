@@ -9,3 +9,7 @@
 <p>
   メッセージ: {data.message}
 </p>
+<p>
+  Date: {data.serverTime}
+</p>
+
